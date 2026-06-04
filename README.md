@@ -51,8 +51,17 @@ The analysis found that predictor failures are not random. Certain genes showed 
 
 ```text
 .
-├── data/                  # Input datasets and processed CSV files
-├── notebooks/             # Google Colab or Jupyter notebooks
-├── results/               # Output tables, figures, and failure summaries
-├── figures/               # Plots used in analysis and presentation
+├── Data/                  # Input datasets and analysis exports (CSVs)
+├── Data_Curation/         # Scripts to build the merged dataset
+├── DataExploration/       # Exploratory notebooks
+├── Models/                # Benchmarking and AlphaFold notebooks
+├── scripts/               # export_and_alphafold.py (batch exports + pLDDT)
 └── README.md
+```
+
+Key exports in `Data/` include `phase_4_5_6_summary.csv`, `confidence_boundary_analysis.csv`, `alphafold_variants_min20.csv`, and `alphafold_variants_with_plddt.csv`. Re-run exports with:
+
+```bash
+python scripts/export_and_alphafold.py
+python scripts/export_and_alphafold.py --stats-only  # reuse downloaded structures
+```

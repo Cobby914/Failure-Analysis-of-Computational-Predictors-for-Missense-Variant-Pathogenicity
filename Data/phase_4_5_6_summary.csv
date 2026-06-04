@@ -1,0 +1,8 @@
+Metric,Value
+Total variants in test-set failure_df,18864.0
+Variants with any predictor failure,8266.0
+Any failure rate,0.4381891433418151
+Mean predictors failed per variant,0.8893129770992366
+Predictor disagreement rate,0.38427692960135706
+Failure rate among disagreement cases,1.0
+Failure rate among agreement cases,0.08755919070167886

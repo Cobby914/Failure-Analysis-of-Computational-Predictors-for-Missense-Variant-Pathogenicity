@@ -1,0 +1,4 @@
+Gene,Entry,test_variants,reason
+TTN,Q8WZ42,74,No AlphaFold model in EBI API (404; titin often unavailable as full-length)
+BRCA2,P51587,50,No AlphaFold model in EBI API (404)
+PKD1,P98161,28,No AlphaFold model in EBI API (404)

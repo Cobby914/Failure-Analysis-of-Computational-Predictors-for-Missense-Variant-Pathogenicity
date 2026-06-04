@@ -1,0 +1,17 @@
+cohort,metric,value
+top10_failure_genes,n_variants_with_plddt,63.0
+top10_failure_genes,failed_median_plddt,89.5
+top10_failure_genes,nonfailed_median_plddt,
+top10_failure_genes,mannwhitney_p,
+top10_failure_genes,spearman_rho,0.024075542029963246
+top10_failure_genes,spearman_p,0.8514300104066552
+top10_failure_genes,fisher_low_confidence_odds_ratio,
+top10_failure_genes,fisher_low_confidence_p,
+min20_high_failure_genes,n_variants_with_plddt,310.0
+min20_high_failure_genes,failed_median_plddt,95.31
+min20_high_failure_genes,nonfailed_median_plddt,89.56
+min20_high_failure_genes,mannwhitney_p,0.00014958622264082562
+min20_high_failure_genes,spearman_rho,0.3201134910985697
+min20_high_failure_genes,spearman_p,8.125369124932173e-09
+min20_high_failure_genes,fisher_low_confidence_odds_ratio,0.8453776041666666
+min20_high_failure_genes,fisher_low_confidence_p,0.6168971656535911
