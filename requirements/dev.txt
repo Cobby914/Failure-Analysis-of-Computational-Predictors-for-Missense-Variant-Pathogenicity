@@ -1,0 +1,5 @@
+-r requirements.txt
+
+# Local notebook development
+jupyter>=1.0
+ipykernel>=6.25
